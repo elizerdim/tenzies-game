@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Die from './Die'
 import './style.css'
 import { nanoid } from 'nanoid';
+import ReactConfetti from 'react-confetti';
 
 function App() {
   const [ dice, setDice ] = useState(allNewDice());
@@ -78,6 +79,7 @@ function App() {
         >
           {status === 'Game Over' ? 'Restart Game' : 'Roll'}
         </button>
+        {status === 'Game Over' && <ReactConfetti />}
       </main>
     </>
   )
