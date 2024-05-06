@@ -15,8 +15,8 @@ Users should be able to:
 
 ### Links
 
-- [View Code](https://www.example.com)
-- [Live Preview](https://www.example.com)
+- [View Code](https://github.com/elizerdim/tenzies-game)
+- [Live Preview](https://tenzies-game-liart.vercel.app/)
 
 ## My process
 
